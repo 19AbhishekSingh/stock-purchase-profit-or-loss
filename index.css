@@ -1,0 +1,98 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9?styles=49034,49036');
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Helvetica 25 UltraLight', sans-serif;
+    box-sizing: border-box;
+                                                
+}
+
+:root {
+    --primary-color: #1a61e9;
+}
+.header{
+    background-color:  var(--primary-color);
+    color: #f8f8f8;;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 0 0 1rem 1rem;
+    margin-bottom: 3rem;
+}
+
+.headings {
+    text-align: center;
+}
+
+#initial-price{
+    text-align: center;
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    display: block;
+    font-size: 1rem;
+    margin: 2rem auto;
+}
+
+#stocks-quantity{
+    text-align: center;
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    display: block;
+    font-size: 1rem;
+    margin: 2rem auto;
+}
+
+#current-price{
+    text-align: center;
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    display: block;
+    font-size: 1rem;
+    margin: 2rem auto;
+}
+
+#sumbit-btn{
+    background-color: var(--primary-color);
+    color:#f8f8f8;
+    border-radius: 1rem;
+    border: 0;
+    font-size: 1.2rem;
+    display: block;
+    margin: 3rem auto;
+    padding: 1rem 2rem;
+    cursor: pointer
+}
+
+#output {
+    text-align: center;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 90%;
+    font-size: 1.5rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color:  var(--primary-color);
+    color: #f8f8f8;
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+
+
+
+
+
+
+
+
